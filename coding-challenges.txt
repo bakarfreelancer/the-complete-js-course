@@ -1,0 +1,49 @@
++++++++++++++++++++
++++++++++++++++++++
+Coding Challenge 1
++++++++++++++++++++
++++++++++++++++++++
+
+There are two students 'ali' and 'Shan'.
+The marks of each student are as below:
+Ali's Marks:
+    - English:  90
+    - Urdu:     60
+    - Pashto:   85
+    - Maths:    30
+    - Science:  70
+
+Shan's Marks:
+    - English:  70
+    - Urdu:     40
+    - Pashto:   35
+    - Maths:    30
+    - Science:  20
+Create variables for each subject marks. (aliEnglishMarks)
+
+1) Calculate the total marks of each student and save in two variables, 'aliTotalMarks' and 'shanTotalMarks'.
+2) Also find average marks of each student and store in variables 'aliAverageMarks' and 'shanAverageMarks'.
+   Average = (English + Urdu + Pashto + Maths + Science) / 5
+3) Create boolean variable 'isShanPassed' and stored result of the statement 'Shan average marks is greater than 45';
+4) Compare both students total marks and do not store it in variable, directly print it on console.
+5) Print all results to console.
+
+
++++++++++++++++++++
++++++++++++++++++++
+Coding Challenge 2
++++++++++++++++++++
++++++++++++++++++++
+Use your previous Ali and Shan results example and solve the given problems
+1) Check if shan's marks is greater than ali's marks print "Shan marks is greater and total marks = (shan's marks)", else print "Ali Marks is greater and total marks = (ali's marks)" to console.
+2) Print both students average marks to console with template literals as : 
+    "Ali average marks = 'aliAverageMarks' and Shan average marks = 'shanAverageMarks'".
+    
+    
+    
+    
+    
+    
+    
+    
+    

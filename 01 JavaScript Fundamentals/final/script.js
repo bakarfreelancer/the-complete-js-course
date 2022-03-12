@@ -53,7 +53,7 @@ var name;
 
 const color = "Green";
 console.log(color);
-*/
+
 
 // Arithmetic Operators
 const currentYear = 2022;
@@ -106,3 +106,66 @@ console.log(x);
 console.log(nadeemAge > admadAge);
 
 console.log(12 != 13);
+
+
+console.log(2022 - 1998 < 2022 - 1990);
+//              24      >   32
+//                  false
+//              24      <   32
+//                  true
+
+const avg = (20 + 10) / 2;
+console.log(avg);
+
+
+const firstName = "Abu";
+const lastName = "Bakar";
+const course = "JavaScript";
+const year = "2022";
+
+let myIntro =
+  "My name is " +
+  firstName +
+  " " +
+  lastName +
+  "\nand I am teaching you " +
+  course +
+  " course" +
+  "\nin year of " +
+  year;
+
+myIntro = `My name is ${firstName} ${lastName} \nand I am teaching you ${course} course \nin year of ${year}`;
+
+console.log(myIntro);
+
+const obMarks = 480;
+const totalMarks = 550;
+
+// (obMarks / total Marks) x 100
+console.log(`Percentage of marks is ${(obMarks / totalMarks) * 100}`);
+const intro = `My name is abu bakar`;
+console.log(intro);
+
+// if else
+const minimum = 30000;
+const salary = 20000;
+// let payTax = salary >= minimum;
+
+// if (condition[Boolean == true]) {
+    // code to run when condition result is true
+    // }else{
+        //     code to run when condition is false
+        // }
+        if (salary >= minimum) {
+            console.log("You have to pay tax");
+        } else {
+            console.log(`Your salary is ${salary} and you don't have to pay tax`);
+        }
+        
+        const age = 10;
+        if (age >= 18) {
+            console.log("You can apply for NIC");
+        } else {
+  console.log("You can not apply for nic");
+}
+*/
